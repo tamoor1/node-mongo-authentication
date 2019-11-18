@@ -62,7 +62,7 @@ app.use(cors());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', (req, res) => {
-    res.status(200).json({message: 'Hello from express app'});
+    res.status(200).json({response: 'this is my first node app'});
 })
 
 // mount routes
